@@ -1,0 +1,18 @@
+// rem - better support for scalling up and down
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: $s-size;
+    background-color: $darkblue;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default
+}
